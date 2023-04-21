@@ -1,0 +1,278 @@
+* :not(ul,ol,li) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 20vh;
+    background-color: coral;
+    position: sticky;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(39, 39, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 5;
+    justify-content: start;
+    margin-left: 1.5rem;
+}
+
+nav img {
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+}
+
+h1 {
+    text-align: center;
+    color: darksalmon;
+    font-size: 3rem;
+    font-family: cursive;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.idx_img{
+    height: 25rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.idx_2{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imag1_2{
+    height: 15rem;
+    display: inline-block;
+    margin-bottom: 3rem ;
+}
+
+.parraf_1{
+    width: 25rem;
+    text-align: center;
+    color: brown;
+    font-size: 1.5rem;
+    left: 12vw;
+    margin-top: 3rem;
+    display: inline-block;
+    margin-bottom: 3rem ;
+}
+
+.dv_1{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imag2_1{
+    height: 35vh;
+}
+
+.imag2_2{
+    height: 35vh;
+}
+
+.imag2_3{
+    height: 35vh;
+    margin-bottom: 3rem;
+}
+
+.parraf2_1{
+    width: 25rem;
+    text-align: center;
+    color: brown;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.parraf2_2{
+    width: 25rem;
+    text-align: center;
+    color: brown;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.parraf2_3{
+    width: 25rem;
+    text-align: center;
+    color: brown;
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 3rem ;
+}
+
+/*contact*/
+
+.parraf3_1{
+    width: 50rem;
+    text-align: center;
+    color: brown;
+    font-size: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center; 
+}
+
+.dts_contacto{
+    width: 25rem;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tbl{
+    height: 40%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+table, thead, tbody, tr, th, td{
+    border: 1px solid brown;
+    border-collapse: collapse;
+    padding: 2rem;
+    text-align: center;
+}
+
+table{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/*BENEFITS AND TIPS*/
+
+.dv_2{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imag4_1{
+    height: 35vh;
+}
+
+.imag4_2{
+    height: 35vh;
+    margin-bottom: 3rem;
+}
+
+.parraf4_1{
+    width: 35rem;
+    color: brown;
+    font-size: 1rem;
+    display: inline-block;
+
+}
+
+.dv_3{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.imag5_1{
+    height: 35vh;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    display: block;
+}
+
+.imag5_2{
+    height: 35vh;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    display: block;
+}
+
+form{
+    text-align: center;
+    color: brown;
+    font-size: 1.5rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.idx_3{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer{
+    height: 50vh;
+    background-color: coral;
+    bottom: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.map{
+    margin-left: 3rem;
+    height: 20vh;
+    margin-bottom: 11rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        position: sticky;
+        top: 0;
+        flex-direction: column;
+    }
+    img {
+        width: 10rem;
+        height: 10rem;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: min-content;
+    }
+
+    .map{
+        height: 5vh;
+        width: 5vw;
+    }
+}
